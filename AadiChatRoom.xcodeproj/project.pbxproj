@@ -17,6 +17,7 @@
 		849062EF232A2AF1000A343F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849062EE232A2AF1000A343F /* Assets.xcassets */; };
 		849062F2232A2AF1000A343F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849062F0232A2AF1000A343F /* LaunchScreen.storyboard */; };
 		849062FD232A2AF1000A343F /* AadiChatRoomExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849062FC232A2AF1000A343F /* AadiChatRoomExampleTests.swift */; };
+		84906306232A2E14000A343F /* AadiChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84906305232A2E14000A343F /* AadiChatRoom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		849062F8232A2AF1000A343F /* AadiChatRoomExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AadiChatRoomExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849062FC232A2AF1000A343F /* AadiChatRoomExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AadiChatRoomExampleTests.swift; sourceTree = "<group>"; };
 		849062FE232A2AF1000A343F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84906305232A2E14000A343F /* AadiChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AadiChatRoom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				849062C7232A2AA0000A343F /* AadiChatRoom.h */,
+				84906305232A2E14000A343F /* AadiChatRoom.swift */,
 				849062C8232A2AA0000A343F /* Info.plist */,
 			);
 			path = AadiChatRoom;
@@ -249,6 +252,7 @@
 				TargetAttributes = {
 					849062C3232A2AA0000A343F = {
 						CreatedOnToolsVersion = 10.2;
+						LastSwiftMigration = 1020;
 					};
 					849062CC232A2AA0000A343F = {
 						CreatedOnToolsVersion = 10.2;
@@ -322,6 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84906306232A2E14000A343F /* AadiChatRoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +516,7 @@
 		849062D9232A2AA0000A343F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -528,6 +534,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.timeline.AadiChatRoom;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -536,6 +543,7 @@
 		849062DA232A2AA0000A343F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -561,6 +569,7 @@
 		849062DC232A2AA0000A343F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2HR6U6SZP;
 				INFOPLIST_FILE = AadiChatRoomTests/Info.plist;
@@ -579,6 +588,7 @@
 		849062DD232A2AA0000A343F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J2HR6U6SZP;
 				INFOPLIST_FILE = AadiChatRoomTests/Info.plist;
