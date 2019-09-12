@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		849062CE232A2AA0000A343F /* AadiChatRoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849062C4232A2AA0000A343F /* AadiChatRoom.framework */; };
 		849062D3232A2AA0000A343F /* AadiChatRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849062D2232A2AA0000A343F /* AadiChatRoomTests.swift */; };
-		849062D5232A2AA0000A343F /* AadiChatRoom.h in Headers */ = {isa = PBXBuildFile; fileRef = 849062C7232A2AA0000A343F /* AadiChatRoom.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		849062E5232A2AF0000A343F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849062E4232A2AF0000A343F /* AppDelegate.swift */; };
 		849062E7232A2AF0000A343F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849062E6232A2AF0000A343F /* ViewController.swift */; };
 		849062EA232A2AF0000A343F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849062E8232A2AF0000A343F /* Main.storyboard */; };
@@ -18,6 +17,7 @@
 		849062F2232A2AF1000A343F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849062F0232A2AF1000A343F /* LaunchScreen.storyboard */; };
 		849062FD232A2AF1000A343F /* AadiChatRoomExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849062FC232A2AF1000A343F /* AadiChatRoomExampleTests.swift */; };
 		84906306232A2E14000A343F /* AadiChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84906305232A2E14000A343F /* AadiChatRoom.swift */; };
+		84906337232A37BD000A343F /* ChatRoom.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84906336232A37BD000A343F /* ChatRoom.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		849062C4232A2AA0000A343F /* AadiChatRoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AadiChatRoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		849062C7232A2AA0000A343F /* AadiChatRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AadiChatRoom.h; sourceTree = "<group>"; };
 		849062C8232A2AA0000A343F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849062CD232A2AA0000A343F /* AadiChatRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AadiChatRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849062D2232A2AA0000A343F /* AadiChatRoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AadiChatRoomTests.swift; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		849062FC232A2AF1000A343F /* AadiChatRoomExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AadiChatRoomExampleTests.swift; sourceTree = "<group>"; };
 		849062FE232A2AF1000A343F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84906305232A2E14000A343F /* AadiChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AadiChatRoom.swift; sourceTree = "<group>"; };
+		84906336232A37BD000A343F /* ChatRoom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatRoom.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +116,8 @@
 		849062C6232A2AA0000A343F /* AadiChatRoom */ = {
 			isa = PBXGroup;
 			children = (
-				849062C7232A2AA0000A343F /* AadiChatRoom.h */,
 				84906305232A2E14000A343F /* AadiChatRoom.swift */,
+				84906336232A37BD000A343F /* ChatRoom.xib */,
 				849062C8232A2AA0000A343F /* Info.plist */,
 			);
 			path = AadiChatRoom;
@@ -162,7 +162,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849062D5232A2AA0000A343F /* AadiChatRoom.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84906337232A37BD000A343F /* ChatRoom.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

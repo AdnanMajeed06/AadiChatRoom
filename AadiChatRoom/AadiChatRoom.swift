@@ -7,17 +7,20 @@
 //
 
 import Foundation
+import UIKit
 
-public final class AadiChatRoom {
+open class AadiChatRoom : UIViewController {
+
     
-    let name = "AadiChatRoom"
+    public var value:String!
     
-    public func add(a: Int, b: Int) -> Int {
-        return a + b
+    @IBOutlet weak var label: UILabel!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        label.text = value
+        // Do any additional setup after loading the view.
     }
-    
-    public func sub(a: Int, b: Int) -> Int {
-        return a - b
-    }
-    
+
 }
